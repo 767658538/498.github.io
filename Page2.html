@@ -10,6 +10,7 @@
 <button onclick="location.href='\index.html';">Page 1</button>
 <button onclick="location.href='\Page2.html';">Page 2</button>
 <button onclick="location.href='\Page3.html';">Page 3</button>
+<button onclick="location.href='\Page4.html';">Page 4</button>
 
 <p style=" margin-left: 2.5em;padding: 0 7em 2em 0;border-width: 0px; border-color: black; border-style:solid ;width:20%;height:85%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The bar chart below shows the compartive number of Action and Comedy movies for a give log revenue. The log function was applied to smooth the graph for better visibility. The data include every comedy and action movie made from year 1994 to 2014. We can see that in fact there are many more comedy movies made. In fact for most ranges in the lower portion and around meadian there are many more comedy movies made. The few blockbuster action movies on the far right overwhelms the adventage in numbers Comedy movies have. The total revenue of all Comedy movies sum up to $56 billion while Action movies get a wooping $77 billion.</p>
 
@@ -18,9 +19,9 @@
 
 
 <script>
-var margin = {top: 10, right: 30, bottom: 30, left: 40},
-    width = 500 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+var margin = {top: 15, right: 35, bottom: 35, left: 45},
+    width = 510 - margin.left - margin.right,
+    height = 410 - margin.top - margin.bottom;
 
 var svg = d3.select("#bar")
   .append("svg")
